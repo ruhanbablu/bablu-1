@@ -83,6 +83,12 @@ header::before{
     padding: 0 30px;
     color: #2f3640;
     font-size: 18px;
+    transition: .3s;
+
+}
+.nav>.menu>ul>li>a:hover{
+    color: #00d8d6;
+    
 
 }
 .nav>.logo-right>#language{
