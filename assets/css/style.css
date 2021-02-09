@@ -6,7 +6,6 @@
 
 }
 header{
-    height: 100vh;
     background-image: linear-gradient(to right, #f1f2f6, #95dce4);
     position: relative;
     overflow: hidden;
@@ -14,8 +13,8 @@ header{
 }
 header::after{
     content: "";
-    height: 1000px;
-    width: 1000px;
+    height: 800px;
+    width: 800px;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -31,7 +30,7 @@ header::before{
     height: 300px;
     width: 300px;
     position: absolute;
-    bottom: 50px;
+    bottom: -20px;
     left: -20px;
     background:radial-gradient(#fff, #0fbcf9);
     border-radius: 50%;
@@ -42,11 +41,12 @@ header::before{
     height: 450px;
     background:rgb(245, 246, 250,.5);
     position: absolute;
-    top: 50%;
+    top: 0;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     border-radius: 20px;
     position: relative;
+    margin-bottom: 50px;
 
 }
 
