@@ -264,8 +264,8 @@ header::before{
     }
     header::after{
         content: "";
-        height: 800px;
-        width: 800px;
+        height: 500px;
+        width: 500px;
         position: absolute;
         bottom: 0;
         right: 0;
@@ -278,10 +278,10 @@ header::before{
     }
     header::before{
         content: "";
-        height: 150px;
-        width: 150px;
+        height: 100px;
+        width: 100px;
         position: absolute;
-        bottom: 50px;
+        bottom: -20px;
         left: -20px;
         background:radial-gradient(#fff, #0fbcf9);
         border-radius: 50%;
